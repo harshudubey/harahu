@@ -209,15 +209,15 @@ while (loop == 'true'):
     if (username == CorrectUsername):
     	password = raw_input("\033[1;91m🗝 \x1b[1;91mTool Password \x1b[1;91m»» \x1b[1;92m")
         if (password == CorrectPassword):
-            print "Logged in successfully as " + username #Dev:love_hacker
+            print "Logged in successfully as " + username #Dev:harshu_ruchika
 	    time.sleep(2)
             loop = 'false'
         else:
             print "\033[1;93mWrong Password"
-            os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
-    else:
+            os.system('xdg-open https://www.youtube.com/channel/UC3S835IJhJvZiTL04O0AHBg')
+   
         print "\033[1;94mWrong Username"
-        os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
+        os.system('xdg-open https://www.youtube.com/channel/UC3S835IJhJvZiTL04O0AHBg')
 
 def login():
 	os.system('clear')
